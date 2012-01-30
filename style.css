@@ -1,0 +1,122 @@
+/*
+Theme Name: RedHead
+Theme URI: http://gingernet.hr
+Description: Template for GINGERnet agency website
+Author: GINGERnet
+Version: 0.0.1
+Template: twentyeleven
+Tags: two-columns, right-sidebar, custom-header, custom-colors, custom-background, custom-menu, theme-options, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+*/
+
+/* ===[ MASTER ]
+///////////////////////////////////////////////////////////////////*/
+
+/* = RESET = */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, font, img, ul, li {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; list-style:none;}
+body {line-height:1; font-family:'TitilliumText22LRegular', Helvetica, Arial, sans-serif; font-size:62.5%;}
+.clear {clear:both}
+:focus {outline:0;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+/* = //RESET = */
+
+@font-face {
+    font-family: 'TitilliumText22LThin';
+    src: url('titillium/TitilliumText22L001-webfont.eot');
+    src: url('titillium/TitilliumText22L001-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium/TitilliumText22L001-webfont.woff') format('woff'),
+         url('titillium/TitilliumText22L001-webfont.ttf') format('truetype'),
+         url('titillium/TitilliumText22L001-webfont.svg#TitilliumText22LThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LLight';
+    src: url('titillium/TitilliumText22L002-webfont.eot');
+    src: url('titillium/TitilliumText22L002-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium/TitilliumText22L002-webfont.woff') format('woff'),
+         url('titillium/TitilliumText22L002-webfont.ttf') format('truetype'),
+         url('titillium/TitilliumText22L002-webfont.svg#TitilliumText22LLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LRegular';
+    src: url('titillium/TitilliumText22L003-webfont.eot');
+    src: url('titillium/TitilliumText22L003-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium/TitilliumText22L003-webfont.woff') format('woff'),
+         url('titillium/TitilliumText22L003-webfont.ttf') format('truetype'),
+         url('titillium/TitilliumText22L003-webfont.svg#TitilliumText22LRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LMedium';
+    src: url('titillium/TitilliumText22L004-webfont.eot');
+    src: url('titillium/TitilliumText22L004-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium/TitilliumText22L004-webfont.woff') format('woff'),
+         url('titillium/TitilliumText22L004-webfont.ttf') format('truetype'),
+         url('titillium/TitilliumText22L004-webfont.svg#TitilliumText22LMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LBold';
+    src: url('titillium/TitilliumText22L005-webfont.eot');
+    src: url('titillium/TitilliumText22L005-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium/TitilliumText22L005-webfont.woff') format('woff'),
+         url('titillium/TitilliumText22L005-webfont.ttf') format('truetype'),
+         url('titillium/TitilliumText22L005-webfont.svg#TitilliumText22LBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LXBold';
+    src: url('titillium/TitilliumText22L006-webfont.eot');
+    src: url('titillium/TitilliumText22L006-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium/TitilliumText22L006-webfont.woff') format('woff'),
+         url('titillium/TitilliumText22L006-webfont.ttf') format('truetype'),
+         url('titillium/TitilliumText22L006-webfont.svg#TitilliumText22LXBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* test */
+h1 a {text-decoration:none; font-size:3em; font-family:'TitilliumText22LBold', Helvetica, Arial, sans-serif; color:#333;}
+h3 {text-decoration:none; font-size:2em; font-family:'TitilliumText22LRegular', Helvetica, Arial, sans-serif; color:#333333;}
+
+p {font-size:1.4em; color:#666;}
+label {font-size:1.4em;}
+
+#page {width:96em; margin:0 auto;}
+#primary {float:left; width:60em; margin-right:2em;}
+#secondary {float:right; width:30em;}
+#secondary:after {clear:both; content:"."; display:block; height:0; visibility:hidden;}
+
+/* ===[ MEDiA 768px ]
+///////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 768px) {
+	/* Tablet CSS here */
+	#primary {float:none; width:60em; margin-right:0;}
+	#secondary {float:none;}
+}
+
+/* ===[ MEDiA 480px ]
+///////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-device-width: 480px) {
+	/* Mobile CSS here */
+}
+
